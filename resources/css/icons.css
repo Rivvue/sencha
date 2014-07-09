@@ -1,0 +1,319 @@
+.username-field{
+	background:url('../icons/man.png');
+	background-repeat:no-repeat;
+	background-position:right bottom;
+	padding:10px 45px 0px 13px;
+	min-height: 3.3em;
+}
+
+.password-field{
+	background:url('../icons/circle.png');
+	background-repeat:no-repeat;
+	background-position:right bottom;
+	padding:10px 45px 0px 13px;
+	min-height: 3.3em;
+}
+
+.time-AM{
+	background:url('../icons/sun.png');
+	background-repeat:no-repeat;
+	background-position: left center;
+	padding-left:40px;
+}
+.time-PM{
+	background:url('../icons/nighttemp.png');
+	background-repeat:no-repeat;
+	background-position: left center;
+	padding-left:40px;
+}
+
+
+
+.facebook-icon{
+	background:url('../icons/facebook_2.png');
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.twitter-icon{
+	background:url('../icons/twitter.png');
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.google-icon{
+	background:url('../icons/googleplus_2.png');
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.contacts-icon{
+	background:url('../icons/contacts.png');
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+/* Mobile Portrait Size*/
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+
+.create-event{
+	background:url('../icons/create-event.png');
+	background-repeat:no-repeat;
+	background-position:1% center;
+	margin: -0.6em;
+	padding-left: 30px;
+	min-height: 3.3em;
+}
+
+.description-icon{
+	background:url('../icons/book.png');
+	background-repeat:no-repeat;
+	background-position: 1% center;
+	background-size:10%;
+}
+
+.tag-icon{
+	background:url('../icons/tags.png');
+	background-repeat:no-repeat;
+	background-position: 1% center;
+	background-size:10%;
+}
+
+.location-icon{
+	background:url('../icons/when.png');
+	background-repeat:no-repeat;
+	background-position: 1% center;
+	background-size:10%;
+}
+
+.event-location-icon{
+	background:url('../icons/when.png');
+	background-repeat:no-repeat;
+	background-position: left center;
+	background-size:70%;
+}
+
+.time-icon{
+	background:url('../icons/watch.png');
+	background-repeat:no-repeat;
+	background-position: 1% center;	
+	background-size:35%;
+}
+
+.group-invite{
+	background:url('../icons/Users-Group-icon.png');
+	background-repeat:no-repeat;
+	background-position: left center;
+	background-size:18px;
+}
+
+.looking-for{
+	background:url('../icons/viewable.png');
+	background-repeat:no-repeat;
+	background-position: left center;
+	background-size:18px;
+}
+
+.public-icon{
+	background:url('../icons/globe_.png');
+	background-repeat:no-repeat;
+	background-position: left center;	
+	padding-left:50px;
+	font-size:14px;
+	color:#9a9b9d;
+	background-color:#ffffff;
+	font-weight:normal;
+}
+
+.friends-icon{
+	background:url('../icons/Users-Group-icon_.png');
+	background-repeat:no-repeat;
+	background-position: left center;	
+	padding-left:50px;
+	font-size:14px;
+	color:#9a9b9d;
+	background-color:#ffffff;
+	font-weight:normal;
+}
+
+.invitees-icon{
+	background:url('../icons/invite.png');
+	background-repeat:no-repeat;
+	background-position: left center;	
+	padding-left:50px;
+	font-size:14px;
+	color:#9a9b9d;
+	background-color:#ffffff;	
+	font-weight:normal;
+}
+
+.only-me-icon{
+	background:url('../icons/onlyme_.png');
+	background-repeat:no-repeat;
+	background-position: left center;	
+	padding-left:50px;
+	font-size:14px;
+	color:#9a9b9d;
+	background-color:#ffffff;
+	font-weight:normal;
+}
+
+.view-event-heading{
+	background:url('../icons/create-event.png');
+	background-repeat:no-repeat;
+	background-position:left center;
+	padding-left: 20px;
+	font-weight:bold;
+	font-size:12px;
+	background-size:8%;
+}
+
+.view-event-picture{
+	background:url('../icons/view_event.png');
+	background-color:#ffffff;
+	background-repeat:no-repeat;
+	background-position:left center;
+	padding-left: 45px;
+	background-size:14%;
+	
+}
+
+
+}
+
+
+/* Tablet/Desktop Size*/
+@media only screen and (min-width: 500px) {
+
+.create-event{
+	background:url('../icons/create-event.png');
+	background-repeat:no-repeat;
+	background-position:1% center;
+	margin: -0.6em;
+	padding-left: 45px;
+	min-height: 3.3em;
+}
+
+.description-icon{
+	background:url('../icons/book.png');
+	background-repeat:no-repeat;
+	background-position: left center;
+	background-size:3%;
+}
+
+.tag-icon{
+	background:url('../icons/tags.png');
+	background-repeat:no-repeat;
+	background-position: left center;
+	background-size:3%;
+}
+
+.location-icon{
+	background:url('../icons/when.png');
+	background-repeat:no-repeat;
+	background-position: left center;
+	background-size:3%;
+}
+
+
+
+.time-icon{
+	background:url('../icons/watch.png');
+	background-repeat:no-repeat;
+	background-position: left center;	
+	background-size:45%;
+}
+
+.group-invite{
+	background:url('../icons/Users-Group-icon.png');
+	background-repeat:no-repeat;
+	background-position: left center;
+	background-size:24px;
+}
+
+.looking-for{
+	background:url('../icons/viewable.png');
+	background-repeat:no-repeat;
+	background-position: left center;
+	background-size:24px;
+}
+
+.public-icon{
+	background:url('../icons/globe_.png');
+	background-repeat:no-repeat;
+	background-position: left center;	
+	padding-left:50px;
+	font-size:20px;
+	color:#9a9b9d;
+	background-color:#ffffff;
+	font-weight:normal;
+}
+
+.friends-icon{
+	background:url('../icons/Users-Group-icon_.png');
+	background-repeat:no-repeat;
+	background-position: left center;	
+	padding-left:50px;
+	font-size:20px;
+	color:#9a9b9d;
+	background-color:#ffffff;
+	font-weight:normal;
+}
+
+.invitees-icon{
+	background:url('../icons/invite.png');
+	background-repeat:no-repeat;
+	background-position: left center;	
+	padding-left:50px;
+	font-size:20px;
+	color:#9a9b9d;
+	background-color:#ffffff;	
+	font-weight:normal;
+}
+
+.only-me-icon{
+	background:url('../icons/onlyme_.png');
+	background-repeat:no-repeat;
+	background-position: left center;	
+	padding-left:50px;
+	font-size:20px;
+	color:#9a9b9d;
+	background-color:#ffffff;
+	font-weight:normal;
+}
+
+.view-event-heading{
+	background:url('../icons/create-event.png');
+	background-repeat:no-repeat;
+	background-position:left center;
+	padding-left: 35px;
+	font-weight:bold;
+	font-size:16px;
+}
+
+.view-event-picture{
+	background:url('../icons/view_event.png');
+	background-color:#ffffff;
+	background-repeat:no-repeat;
+	background-position:left center;
+	padding-left: 45px;
+	background-size:3%;
+	
+}
+
+
+
+}

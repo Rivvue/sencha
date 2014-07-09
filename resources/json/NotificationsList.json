@@ -1,0 +1,55 @@
+[
+
+	{
+		"id":1,
+		"invitee":"Jack Mcliesh",
+		"event":"Watch Gravity Movie",
+		"notification":"has invited you to",
+		"notificationType":"event",
+		"notificationTime":"TODAY"
+	},
+	{
+		"id":2,
+		"invitee":"Barbara Tisiot",
+		"notification":"has sent you friend request",
+		"notificationType":"request",
+		"notificationTime":"TODAY"
+	},
+	{
+		"id":3,
+		"invitee":"Katie Milburn",
+		"event":"Watch Gravity Movie",
+		"notification":"has invited you to",
+		"notificationType":"event",
+		"notificationTime":"TODAY"
+	},
+	{
+		"id":4,
+		"invitee":"Josh Kripura",
+		"notification":"has sent you friend request",
+		"notificationType":"request",
+		"notificationTime":"YESTERDAY"
+	},
+	{
+		"id":5,
+		"invitee":"David Brunealla",
+		"notification":"has sent you friend request",
+		"notificationType":"request",
+		"notificationTime":"YESTERDAY"
+	},
+	{
+		"id":6,
+		"invitee":"Jack Mcliesh",
+		"event":"Watch Gravity Movie",
+		"notification":"has invited you to",
+		"notificationType":"event",
+		"notificationTime":"TODAY"
+	},
+	{
+		"id":7,
+		"invitee":"Barbara Tisiot",
+		"notification":"has sent you friend request",
+		"notificationType":"request",
+		"notificationTime":"TODAY"
+	}
+]

@@ -1,0 +1,21 @@
+header background   Color: #338ad5
+header rightside top:  font:- districtpro  color:#fff; size:14px;
+header rightside bottom:  font: Oswald bold  color:#fff; size:16px;
+
+on the page leftside:-
+
+running heading font:- oswald, Size 24px color:#4d4e53;
+
+Ponderosa park font:- Oswald light  size:22px color:#4d4e53;
+
+more event  font oswald size:12px color:#4d4e53;
+
+on the page rightside:-
+
+ calender background color is #114181; color:#fff; font: oswald size:16px;
+ Group background color :#205a97;color:#fff; font: oswald size:16px;
+
+
+
+footer background  color: 338ad5;
+footer font: oswald  size 18px color:#4d4e53;

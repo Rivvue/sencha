@@ -1,0 +1,87 @@
+// The following two lines import the default Sencha Touch theme. If you are building
+// a new theme, remove them and the add your own CSS on top of the base CSS (which
+// is already included in your app.json file).
+@import 'sencha-touch/default';
+
+@import 'sencha-touch/default/src/_Class.scss';
+
+@import 'sencha-touch/default/src/_Panel.scss';
+@import 'sencha-touch/default/src/_MessageBox.scss';
+@import 'sencha-touch/default/src/_Toolbar.scss';
+@import 'sencha-touch/default/src/carousel/_Carousel.scss';
+@import 'sencha-touch/default/src/form/_Panel.scss';
+@import 'sencha-touch/default/src/form/_FieldSet.scss';
+@import 'sencha-touch/default/src/field/_Field';
+@import 'sencha-touch/default/src/field/_Checkbox.scss';
+@import 'sencha-touch/default/src/field/_Select.scss';
+@import 'sencha-touch/default/src/field/_Slider.scss';
+@import 'sencha-touch/default/src/field/_Spinner.scss';
+@import 'sencha-touch/default/src/picker/_Picker.scss';
+@import 'sencha-touch/default/src/slider/_Slider.scss';
+@import 'sencha-touch/default/src/slider/_Toggle.scss';
+@import '_Panel.scss';
+@import '_Button.scss';
+@import 'sencha-touch/default/src/dataview/_List.scss';
+
+
+$base-color: #EEEEEE;
+$active-color: #2D3E50;
+$base-gradient: 'matte';
+//$page-bg-color:#FFFFFF;
+//$form-bg-color:#f8f4e4;
+$confirm-color:#FD7330;
+//$neutral-color:#333333;
+//$alert-color:#C82020;
+
+
+@include icon-font('IcoMoon', inline-font-files(
+  'pictos/icomoon.woff', woff,
+  'pictos/icomoon.ttf', truetype,
+  'pictos/icomoon.svg', svg
+));
+
+@include icon("calendar"  , "\e606", "IcoMoon");
+@include icon("checkmark"  , "\e607", "IcoMoon");
+@include icon("checkmark2"  , "\e608", "IcoMoon");
+@include icon("facebook2"  , "\e602", "IcoMoon");
+@include icon("tumblr", "\e603", "IcoMoon");
+@include icon("twitter", "\e604", "IcoMoon");
+@include icon("googleplus"  , "\e601", "IcoMoon");
+@include icon("address-book"  , "\e600", "IcoMoon");
+@include icon("signup"  , "\e60b", "IcoMoon");
+@include icon("envelope-o"  , "\f003", "IcoMoon");
+@include icon("group"  , "\f0c0", "IcoMoon");
+
+
+
+// Examples of using the icon mixin:
+//@include icon('calendar');
+@include icon('add');
+@include icon('chat2');
+@include icon('team');
+@include icon('mail');
+
+$button-gradient: 'matte';
+$button-radius: 0em;
+
+@include sencha-button-ui('orange',#FF8A67,'flat');
+@include sencha-button-ui('blue',#2789E4,'flat');
+@include sencha-button-ui('fb-button',#334B80,'flat');
+@include sencha-button-ui('gmail-button',#E24C3B,'flat');
+@include sencha-button-ui('toolbar-button',#195393,'flat');
+
+
+@include sencha-button-ui('notification-button1',#2789E4,'flat');
+@include sencha-button-ui('notification-button2',#E7F3FF,'flat');
+
+
+
+@include sencha-toolbar-ui('white-toolbar', #ffffff, 'flat');
+@include sencha-toolbar-ui('off-white-toolbar', #EDECE8, 'flat');
+
+@include sencha-tabbar-ui('main-tabbar', #eeeeee, 'mate', #666);
+
+
+
+
+

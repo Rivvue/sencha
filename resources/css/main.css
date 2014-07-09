@@ -1,0 +1,943 @@
+/*@font-face {
+	font-family:'Oswald light';
+	src:url('../fonts/Oswald-Light.otf');
+}
+
+@font-face {
+	font-family:'Oswald bold';
+	src:url('../fonts/Oswald-Bold.otf');
+}
+
+@font-face {
+	font-family:'Oswald';
+	src:url('../fonts/Oswald-Regular.otf');
+}
+
+@font-face {
+	font-family:'District Pro';
+	src:url('../fonts/DistProTh.otf');
+}*/
+
+.login-header{
+	color:#4d4e53;
+	font-size:40px;
+}
+
+.login-fields{
+	height:70px;
+}
+
+.signin-button {
+	background-image:none;
+	background-color:#FF8A67;
+	height:70px;
+	padding-top:0.6em;
+	border-radius:0px !important;
+	-webkit-border-radius:0px !important;
+	border:0px !important;
+
+}
+
+.signin-button .x-button-label{
+	color:#fff;
+	font-size:20px;
+	text-align:center;
+	font-weight:normal;
+}
+
+.forgot-password{
+	color:#696967;
+	font-size:14px;
+	font-family:'arial';
+}
+
+.create-account{
+	color:#696967;
+	font-size:14px;
+	font-family:'arial';
+	font-weight:bold;
+}
+
+.separator{
+	color:#BFC0C0;
+	font-weight:bold;
+}
+
+.separator-line{
+	width:100%;
+	border:1px solid #D9D9D9;
+}
+
+.round-buttons{
+	border-radius:1px !important;
+	-webkit-border-radius:1px !important;
+}
+
+.sign-up-link{
+	color:#696967;
+	font-size:34;
+}
+
+.search-invites{
+	margin:0px;
+}
+
+
+
+
+.notificationlistview-basic .x-list-item,.participantlistview-basic .x-list-item {
+background-color:#ffffff !important;
+}
+
+
+.notificationlistview-basic .notification-cont,.participantlistview-basic .participant-cont{
+	width:100%;
+	background-color:#ffffff;
+	margin-top:10px;
+}
+
+
+
+
+
+.participantlistview-basic .participant-button-cont{
+	float:right;
+	margin-top:17px;
+}
+
+.notificationlistview-basic .notification-options,.participantlistview-basic .participant-options{
+	margin-bottom:7px;
+}
+
+.notificationlistview-basic .notification-other-options2{
+	
+}
+
+.notificationlistview-basic .notification-sub-option1{
+	float:left;
+	margin-right:10px;
+}
+.notificationlistview-basic .notification-sub-option2{
+	
+}
+
+
+.notificationlistview-basic .x-list-normal .x-list-item.x-item-selected.x-list-item-tpl,.notificationlistview-basic .x-list-normal .x-list-item.x-item-selected .x-dock-horizontal {
+	background-color:#ffffff !important;	
+	background-image:none !important;
+}
+
+
+
+
+
+
+
+.invitelistview-basic .x-list-item {
+	background-color:#ffffff !important;
+}
+
+
+.invitelistview-basic .invite-cont{
+	width:100%;
+	border-top:0px;
+	background-color:#ffffff;
+	padding:5px;
+}
+
+
+
+.invitelistview-basic .x-list-normal .x-list-item.x-item-selected.x-list-item-tpl{
+	border-top:0px !important;
+}
+
+.invitelistview-basic .x-list-normal .x-list-item.x-item-selected.x-list-item-tpl,.invitelistview-basic .x-list-normal .x-list-item.x-item-selected .x-dock-horizontal {
+	background-color:#ffffff !important;
+	border-top-color:#ffffff !important;
+	background-image:none !important;
+}
+
+
+
+
+
+
+.viewable-button-cont1{
+	padding-right:15px;
+	float:right;
+	/*border-right:1px solid #dedede;*/
+}
+
+.viewable-button-cont2{
+	padding-right:15px;
+}
+
+.viewable-name{
+	padding-left:5px;
+	float:left;
+}
+
+
+
+
+.dataview-basic  .eventList td{
+padding:0px;
+}
+.dataview-basic .x-dataview-item .content {
+height: 60px;
+margin-left: 50px;
+
+}
+
+.dataview-basic .x-dataview-item .content-top-row{
+
+}
+
+.dataview-basic .x-dataview-item .content-bottom-row{
+	
+}
+
+.dataview-basic .x-dataview-item .content .name {
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+
+}
+
+.dataview-basic .x-dataview-item .content .location {
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+
+}
+
+.dataview-basic .x-dataview-item .time {
+text-align:right;
+vertical-align:top;
+clear: both;
+color: #9a9b9d;
+font-family: "District Pro", Arial;
+font-size: 1em;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.eventLabel {
+		color: #9a9b9d;
+}
+
+.dataview-horizontal .x-dataview-item, .dataview-inline .x-dataview-item {
+padding: 7px 15px 7px 15px;
+margin:5px;
+background-color:#FF8A67;
+color:#ffffff;
+font-size:16px;
+}
+
+.x-dataview-inlineblock .x-dataview-item, .x-dataview-inlineblock .x-data-item {
+display: inline-block !important;
+}
+
+
+
+.x-navigation-bar{
+	display:none !important;
+}
+
+.x-toolbar.x-docked-top {
+ border-bottom: 0px !important;
+}
+
+.event-options-list .x-list-item{
+	background-color:#FFFFFF !important;
+	border-top:0px !important;
+	border-bottom:0px !important;
+}
+
+.event-options-list.x-list-normal .x-list-item.x-item-selected.x-list-item-tpl{
+	border-top:0px !important;
+	border-bottom:0px !important;
+	background-color:#ffffff !important;
+	border-top-color:#ffffff !important;
+	background-image:none !important;
+}
+
+.event-options-list .x-list .x-list-normal .x-list-item.x-item-selected.x-list-item-tpl,.event-options-list .x-list .x-list-normal .x-list-item.x-item-selected .x-dock-horizontal {
+	background-color:#ffffff !important;
+	border-top-color:#ffffff !important;
+	background-image:none !important;
+}
+
+.event-options-list{
+	background-color:#FFFFFF !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+.x-segmentedbutton .x-button.x-first {
+-moz-border-radius-topleft: 0.2em;
+-webkit-border-top-left-radius: 0.2em;
+border-top-left-radius: 0.2em; 
+-moz-border-radius-bottomleft: 0.2em;
+-webkit-border-bottom-left-radius: 0.2em;
+border-bottom-left-radius: 0.2em; 
+}
+
+
+.x-segmentedbutton .x-button.x-last {
+-moz-border-radius-topright: 0.2em;
+-webkit-border-top-right-radius: 0.2em;
+border-top-right-radius: 0.2em;
+-moz-border-radius-bottomright: 0.2em;
+-webkit-border-bottom-right-radius: 0.2em;
+border-bottom-right-radius: 0.2em;
+}
+
+.touch-calendar-view thead th span {
+	font-weight: normal;
+	top: 2px !important;
+	color: #4f4f51;
+}
+
+/* Mobile Portrait Size*/
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+
+	.toolbar-links{
+	color:#FF8A67 !important;
+	cursor:pointer;
+	text-decoration:none !important;	
+	font-size:14px;
+	}
+	
+	.viewableview-basic .x-dataview-item {
+		width: 100%;
+		padding: 0px 10px;
+		border-bottom: 1px solid #c2c2c2;
+		height: 45px;
+		background-color:#ffffff;
+	}
+	
+	.viewableview-basic .viewable-name{
+		font-size:14px;
+		color:#9a9b9d;
+		padding-top: 5px;
+	}
+	
+	.viewable-info{
+		padding:20px;
+		font-size:12px;
+		color:#9a9b9d;
+		height:100%;
+		background-color:#ffffff;
+	}
+
+	.dataview-basic .x-dataview-item {
+		width: 100%;
+		padding: 10px 10px 10px 10px;
+		border-bottom: 1px solid #c2c2c2;
+		height: 100px;
+		background-color:#ffffff;
+	}
+
+	.toggleButton{
+		font-family: 'Oswald', sans-serif;
+		font-size:22px;
+	}
+
+   .eventListHeader{
+	font-family: 'Oswald', sans-serif;
+	font-size: 16px;
+	color: #4f4f51;
+	font-weight: normal;
+	vertical-align:top;
+}
+
+	.eventLocation{
+		font-family: 'Oswald', sans-serif;
+		font-size: 14px;
+		color: #7c7d81;
+		font-weight: normal;
+		vertical-align:top;
+	}
+
+	.dataview-basic .x-dataview-item .img {
+		width: 60px;
+		height: 60px;
+		background-repeat: no-repeat;
+		background-size: 80%;
+		background-position: 50%;
+	}
+
+	.dataview-basic .x-dataview-item .temperature {
+		text-align:right;
+		vertical-align:top;
+		height: 27px;
+		font-family: "District Pro", Arial;
+		font-size: 14px;
+	}
+
+	.ratings{
+		vertical-align:middle;
+		padding-bottom:10px;
+		font-size: 10px;
+		color: #7c7d81;
+		font-weight: normal;
+	}
+	.rating-img{
+		width:10px;
+		height:10px;
+	}
+	
+	.touch-calendar-view thead th span {
+		font-size: 18px !important;
+	}
+	
+	.createEvent, .eventHeader{
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	color: #9a9b9d;
+	}
+
+	.eventSubHeader{
+		font-family: 'Oswald', sans-serif;
+		font-size: 14px;
+		color: #9a9b9d;
+	}
+	
+	.plain-label {
+	color:#9a9b9d;
+	font-size:18px;
+	font-weight:normal;
+	background-color:#FFFFFF !important;
+	padding-left:40px !important;
+	margin-left:10px !important;
+	}
+	
+	.field-value{
+	font-size:14px;
+	color: #9E9E9E;
+	}
+	
+	.list-item-name{
+	color:#9a9b9d;
+	font-size:14px;
+	font-weight:normal;
+	background-color:#FFFFFF !important;
+	padding-left:26px;
+	}
+	
+	.notification-image-holder{
+		width:50px;
+	}
+	
+	.notificationlistview-basic .notification-name{
+	padding-top:7px;
+	text-align:middle;
+	color: #9a9b9d;
+	font-size:12px;
+	}
+	
+	
+	.notificationlistview-basic .notification-image,.participantlistview-basic .participant-image{
+	height:50px;
+	width:50px;
+	background-color:#ECECEC;
+	margin-left:7px;	
+	}
+	.notificationlistview-basic .notification-button-cont{
+		float:right;
+		margin-top:5px;
+		min-width:164px;
+	}
+	
+	.invite-image-cont{
+		width:50px;
+	}
+	
+	.invitelistview-basic .invite-image{
+		height:50px;
+		width:50px;
+		background-color:#ECECEC;
+		margin-left:10px;
+		margin-top:10px;
+	}
+	
+	
+	.eventDetailCont{
+		background-color:#ffffff;
+		padding:10px 0px 10px 7px;
+		display:inline-block;
+		border: 1px solid #ddd;
+		width:100%;
+	}
+	.primaryDetailCont{
+		margin-left:5px;
+		float:left;
+	}
+
+	.secondaryDetailCont{
+		margin-right:10px;
+		float:right;
+		text-align:right;
+		color: #9E9E9E;
+	}
+
+
+	
+	.eventDate{
+	font-size:10px;
+	margin-left:20px;
+	margin-top:5px;
+	}
+	.eventTime1{
+		font-size:10px;
+		padding-left:20px;
+		margin-top:5px;
+		background:url('../icons/clock.jpg');
+		background-repeat:no-repeat;
+		background-position: left center;
+		background-size:20px;
+	}
+	.eventTime2{
+		font-size:10px;
+		margin-left:20px;
+		margin-top:5px;
+	}
+
+	.temperature{
+	font-size:10px;
+	margin-top:5px;
+	}
+	.rating1{
+	font-size:10px;
+	margin-top:5px;
+	}
+	.rating2{
+	font-size:10px;
+	margin-top:5px;
+	}
+	.rating3{
+	font-size:10px;
+	margin-top:5px;
+	}
+	
+	.measure-rating-img{
+		height:9px;
+	}
+	.confirmed-participants{
+	color: #9E9E9E;
+	font-size:14px;
+	}
+	
+	.participant-name{
+		font-size:12px;
+	}
+	
+	.invitelistview-basic .invite-name{
+	color: #9a9b9d;
+	text-align:left;
+	font-size:12px;
+	}
+	
+	.disclosure-component{
+	background-color:#ffffff;
+	height:50px;
+	padding:13px 15px 10px 15px;
+	display:inline-block;
+	border: 1px solid #ddd;
+	width:100%;
+	}
+
+
+	.disclosure-header{
+		float:left;
+		color:#9a9b9d;
+	}
+
+	.disclosure-action{
+		float:right;
+		font-size:18px;
+		font-weight:bold;
+		color:#9a9b9d;
+		vertical-align:middle;
+		text-align:center-right;
+		cursor:pointer;
+	}
+	
+	.social-status{
+	background-color:#ffffff;
+	height:70px;
+	padding:10px 15px;
+	display:inline-block;
+	border: 1px solid #ddd;
+	width:100%;
+	margin:0 auto;
+	}
+	
+	.status1{
+		float:left;
+		width:150px;
+	}
+	
+	.status2{
+		float:right;
+		font-size:12px;
+		padding-top:5px;
+		background:url('../icons/blog_cloud.png');
+		background-color:#ffffff;
+		background-repeat:no-repeat;
+		background-position:left center;
+		padding-left: 40px;
+		background-size:32px;
+	}
+	
+		
+	
+	.viewable-images{
+	width:40px;
+	height:43px;
+	}
+
+	.toolbarIcons{
+		height:32px;
+		width:32px;
+	}
+	.toolbarIcons2{
+		height:40px;
+		width:40px;
+	}
+
+}
+
+
+/* Tablet/Desktop Size*/
+@media only screen and (min-width: 500px) {
+
+	
+	
+	.toolbar-links{
+	color:#FF8A67 !important;
+	cursor:pointer;
+	text-decoration:none !important;	
+	font-size:18px;
+	 }
+	 
+	.viewableview-basic .x-dataview-item {
+		width: 100%;
+		padding: 0px 10px;
+		border-bottom: 1px solid #c2c2c2;
+		height: 45px;
+		background-color:#ffffff;
+	}
+	
+	.viewableview-basic .viewable-name{
+		font-size:16px;
+		color:#9a9b9d;
+		padding-top: 5px;
+	}
+	
+	.viewable-info{
+		padding:20px;
+		font-size:14px;
+		color:#9a9b9d;
+		height:100%;
+		background-color:#ffffff;
+	}
+
+	.dataview-basic .x-dataview-item {
+		width: 100%;
+		padding: 10px 10px 10px 10px;
+		border-bottom: 1px solid #c2c2c2;
+		height: 100px;
+		background-color:#ffffff;
+	}
+
+	.toggleButton {
+		font-family: 'Oswald', sans-serif;
+		font-size:24px;
+		padding:3px 40px !important;
+	}
+	
+	.toggleButton .x-segmentedbutton .x-button {
+		padding: 3px 40px;
+		}
+
+   .eventListHeader{
+	font-family: 'Oswald', sans-serif;
+	font-size: 22px;;
+	color: #4f4f51;
+	font-weight: normal;
+	vertical-align:top;
+}
+
+	.eventLocation{
+		font-family: 'Oswald', sans-serif;
+		font-size: 16px;
+		color: #7c7d81;
+		font-weight: normal;
+		vertical-align:top;
+	}
+
+	.dataview-basic .x-dataview-item .img {
+		width: 80px;
+		height: 60px;
+		background-repeat: no-repeat;
+		background-size: 60%;
+		background-position: 50%;
+	}
+
+	.dataview-basic .x-dataview-item .temperature {
+		text-align:right;
+		vertical-align:top;
+		height: 27px;
+		font-family: "District Pro", Arial;
+		font-size: 16px;
+	}
+
+	.ratings{
+		vertical-align:middle;
+		padding-bottom:10px;
+		font-size: 12px;
+		color: #7c7d81;
+		font-weight: normal;
+	}
+
+	.rating-img{
+		width:16px;
+		height:16px;
+	}
+	
+	.touch-calendar-view thead th span {
+		font-size: 20px !important;
+	}
+	
+	.createEvent, .eventHeader{
+	font-family: 'Oswald', sans-serif;
+	font-size: 22px;
+	color: #9a9b9d;
+	}
+
+	.eventSubHeader{
+		font-family: 'Oswald', sans-serif;
+		font-size: 18px;
+		color: #9a9b9d;
+	}
+	
+	.plain-label {
+	color:#9a9b9d;
+	font-size:22px;
+	font-weight:normal;
+	background-color:#FFFFFF !important;
+	padding-left:50px !important;
+	margin-left:10px !important;
+	}
+	
+	.field-value{
+	font-size:16px;
+	color: #9E9E9E;
+	}
+	
+	.list-item-name{
+	color:#9a9b9d;
+	font-size:18px;
+	font-weight:normal;
+	background-color:#FFFFFF !important;
+	padding-left:35px;
+	}
+	
+	.notification-image-holder{
+		width:60px;
+	}
+	
+	.notificationlistview-basic .notification-name{
+	padding-top:7px;
+	text-align:middle;
+	color: #9a9b9d;
+	font-size:16px;
+	}
+	
+	.notificationlistview-basic .notification-image,.participantlistview-basic .participant-image{
+	height:60px;
+	width:60px;
+	background-color:#ECECEC;
+	margin-left:15px;	
+	}
+
+	.notificationlistview-basic .notification-button-cont{
+		float:right;
+		margin-top:5px;
+		min-width:200px;
+	}
+	
+	.invite-image-cont{
+		width:60px;
+	}
+	
+	.invitelistview-basic .invite-image{
+	height:60px;
+	width:60px;
+	background-color:#ECECEC;
+	margin-left:15px;
+	margin-top:20px;
+	}
+	
+	
+	.eventDetailCont{
+		background-color:#ffffff;
+		padding:10px 15px 10px 15px;
+		display:inline-block;
+		border: 1px solid #ddd;
+		width:100%;
+	}
+	.primaryDetailCont{
+		margin-left:10px;
+		float:left;
+	}
+
+	.secondaryDetailCont{
+		margin-right:10px;
+		float:right;
+		text-align:right;
+		color: #9E9E9E;
+	}
+
+
+	
+	.eventDate{
+	font-size:14px;
+	margin-left:35px;
+	margin-top:5px;
+	}
+	
+	.eventTime1{
+		font-size:14px;
+		padding-left:35px;
+		margin-top:5px;
+		background:url('../icons/clock.jpg');
+		background-repeat:no-repeat;
+		background-position: left center;
+		background-size:20px;
+	}
+	.eventTime2{
+		font-size:14px;
+		margin-left:35px;
+		margin-top:5px;
+	}
+
+	.temperature{
+	font-size:14px;
+	margin-top:5px;
+	}
+	.rating1{
+	font-size:14px;
+	margin-top:5px;
+	}
+	.rating2{
+	font-size:14px;
+	margin-top:5px;
+	}
+	.rating3{
+	font-size:14px;
+	margin-top:5px;
+	}
+	
+	.measure-rating-img{
+		height:13px;
+	}
+	
+	.confirmed-participants{
+		color: #9E9E9E;
+		font-size:18px;
+	}
+
+	.participant-name{
+		font-size:16px;
+	}
+	
+	.invitelistview-basic .invite-name{
+	color: #9a9b9d;
+	text-align:left;
+	font-size:16px;
+	}
+	
+	.disclosure-component{
+	background-color:#ffffff;
+	height:50px;
+	padding:13px 15px 10px 15px;
+	display:inline-block;
+	border: 1px solid #ddd;
+	width:100%;
+	}
+
+
+	.disclosure-header{
+		float:left;
+		color:#9a9b9d;
+		font-weight:bold;
+	}
+
+	.disclosure-action{
+		float:right;
+		font-size:22px;
+		font-weight:bold;
+		color:#9a9b9d;
+		vertical-align:middle;
+		text-align:center-right;
+		cursor:pointer;
+	}
+	
+	.social-status{
+	background-color:#ffffff;
+	height:70px;
+	padding:10px 15px;
+	display:inline-block;
+	border: 1px solid #ddd;
+	width:100%;
+	margin:0 auto;
+	}
+	
+	.status1{
+		float:left;
+		width:150px;
+	}
+	
+	.status2{
+		float:right;
+		font-size:14px;
+		padding-top:5px;
+		background:url('../icons/blog_cloud.png');
+		background-color:#ffffff;
+		background-repeat:no-repeat;
+		background-position:left center;
+		padding-left: 40px;
+		background-size:32px;
+	}
+
+	.viewable-images{
+	width:40px;
+	height:43px;
+	}
+
+
+
+}
